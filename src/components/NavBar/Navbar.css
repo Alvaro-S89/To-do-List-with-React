@@ -1,0 +1,14 @@
+.section-navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 5rem;
+}
+
+.section-navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right: 3rem;
+}

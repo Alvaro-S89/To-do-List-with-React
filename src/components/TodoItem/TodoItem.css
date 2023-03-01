@@ -1,0 +1,35 @@
+.section-tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.task {
+    background-color: #191919;
+    padding: 6rem 12rem;
+}
+
+.task h1 {
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container p {
+    color: white;
+    padding: 0.4rem 2rem;
+}
+
+.removeBtn {
+    background-color: white;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+}
